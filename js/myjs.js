@@ -1,6 +1,30 @@
-const category = document.querySelector('#categories')
-// console.dir(`Number of categories: ${category.children.length}`);
+// ======================Задача 1===============================
 
-const title = document.querySelectorAll('h2')
-console.log(title[0]);
-// console.log(`Category: ${title[0].textContent} Elements: `);
+// const categorys = document.querySelector('#categories')
+// console.log(`Number of categories: ${categorys.children.length}`);
+// const array = [...categorys.children];
+// // console.log(array);
+// array.forEach(element => {
+//     // console.log(element);
+//     console.log(`Category: ${element.firstElementChild.textContent}
+//     Elements: ${element.lastElementChild.children.length}`);
+// });
+
+// =====================Задача 2=============================
+
+const ingredients = [
+  "Potatoes",
+  "Mushrooms",
+  "Garlic",
+  "Tomatos",
+  "Herbs",
+  "Condiments",
+];
+
+document.createElement('li')
+const list = document.querySelector('li')
+console.log(list);
+
+
+
+
