@@ -1,22 +1,10 @@
-const ingredients = [
-  'Potatoes',
-  'Mushrooms',
-  'Garlic',
-  'Tomatos',
-  'Herbs',
-  'Condiments',
-];
-const list = document.querySelector('#ingredients')
-console.log(list
-);
+const ingredients = ['Potatoes', 'Mushrooms', 'Garlic', 'Tomatos', 'Herbs', 'Condiments'];
+// console.log(item);
+const list = document.querySelector('#ingredients');
 
-for (const ingredient of ingredients) {
+ingredients.map(elem => {
   const item = document.createElement('li');
-item.classList.add('item');
-  item.textContent = ingredient;
-  console.log(item);
-  list.append(item)
-  
-}
-
-
+  item.classList.add('item');
+  item.textContent = elem;
+  list.append(item);
+});
