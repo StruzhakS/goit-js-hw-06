@@ -1,5 +1,4 @@
 const ingredients = ['Potatoes', 'Mushrooms', 'Garlic', 'Tomatos', 'Herbs', 'Condiments'];
-// console.log(item);
 const list = document.querySelector('#ingredients');
 
 ingredients.map(elem => {
